@@ -1,0 +1,128 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    padding: 14px 16px;
+  }
+.Header img{
+    display: block;
+    float: right;
+    background: #333;
+    }
+h1{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+    font-size: 50px;
+    line-height: 100%;
+    text-align: left;
+    margin: 0;
+    padding: 14px 16px;
+}
+li:hover {
+    background: #ddd;
+    color: black;
+  }
+li{
+    margin-top: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: row;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.welcome_text {
+    display: block;
+    width: 100%;
+    position: fixed;
+    font-weight: bold;
+    font-size: 75px;
+    color: white;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif ;
+    padding: 0;
+    border: 5px solid red;
+    text-decoration: none;
+    text-align: center;
+    margin:50px auto 0 auto;
+    margin-top:350px;
+
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+.welcome_text:hover {
+    text-decoration: none;
+}
+.three{
+    margin-top: 100px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    background-color: #333;
+    padding: 14px 1px;
+    text-align: center;
+}
+a:link{
+    color: white;
+}
+li1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: row;
+    float: left;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 15px; 
+    justify-content: center; 
+}
+li1:hover{
+    background: #ddd;
+    color: black;
+  }
+@media all and (max-width: 700px) {
+    h1{
+        font-size: 35px;
+    }
+    .Header img{
+        height: 75px;
+        width: 75px;
+    }
+    li{
+        font-size: 15px;
+    }
+    .welcome_text{
+        margin-top: 330px;
+        font-size: 65px;
+    }
+}
+@media all and (max-width: 480px) {
+    h1{
+        font-size: 25px;
+    }
+    li{
+        font-size: 10px;
+    }
+    .welcome_text{
+        font-size: 45px;
+    }
+}
